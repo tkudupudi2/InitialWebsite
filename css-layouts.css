@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html,
+html * {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: arial, sans-serif;
+	font-size: lvw;
+	background: white;
+}
+header {
+	position: fixed;
+	padding: 2em;
+	z-index: 1000;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: rgba(0,0,0,0.2);
+}
+nav {
+	z-index: 400;
+	top: 0;
+	left: 0;
+	opacity: .95;
+	background: #fff;
+	position: relative;
+	display: block !important;
+	float: right;
+	width: 30%;
+	padding: .75em 1em 0 0;
+	height: 1.5em;
+}
+.hero {
+	position: relative;
+	height: 54vw;
+	background-color: #DCDCDC;
+}
