@@ -8,34 +8,101 @@ html * {
 	padding: 0;
 }
 body {
-	font-family: arial, sans-serif;
+	font-family: 'arial', sans-serif;
 	font-size: lvw;
 	background: white;
 }
+
 header {
-	position: fixed;
-	padding: 2em;
-	z-index: 1000;
-	top: 0;
-	left: 0;
 	width: 100%;
-	background: rgba(0,0,0,0.2);
+	top: 0px;
+	padding: 0.5em;
+	position: fixed;
+	background-color: antiquewhite;
 }
-nav {
+h1 {
+	color: #FF0004;
+	text-transform: uppercase;
+	font-size: 5em;
+	letter-spacing: 0.25em;
+	text-align: center
+}
+
+h2 {
+	text-transform: none;
+	text-align: center;
+	font-size: 3em;
+}
+h3 {
+	text-align: center;
+	font-family: 'Impact, Charcoal' sans-serif;
+	
+}
+.hero {
+	padding: 20em 6em;
+	background-color: antiquewhite;
+}
+.intro {
+	padding: 15em 6em;
+}
+.intro p {
+	font-family: 'acumin-pro-extra-condensed', sans-serif;
+	color: #343144;
+	text-align: center;
+	text-transform: none;
+	font-size: 2.5em;
+	line-height: 1.5em;
+	letter-spacing: 0.2em;
+	background-color: coral;
+}
+
+.site-nav {
+	position: relative;
+	float: right;
 	z-index: 400;
 	top: 0;
 	left: 0;
-	opacity: .95;
-	background: #fff;
-	position: relative;
 	display: block !important;
-	float: right;
-	width: 30%;
-	padding: .75em 1em 0 0;
-	height: 1.5em;
+	padding: 0.75em 1em 0 0;
+	opacity: 0.95;
+	background: none;
 }
-.hero {
-	position: relative;
-	height: 54vw;
-	background-color: #DCDCDC;
+.site-nav ul {
+	list-style-type: none;
+	margin: 0;
+	text-align: right;
+}
+.site-nav ul li {
+	display: inline-block;
+	margin-bottom: 0;
+	margin-left: 1.5em;
+}
+.site-nav ul li a {
+	font-size: .85em;
+	padding-bottom: .5em;
+	text-decoration: none;
+	letter-spacing: .15em;
+	text-transform: uppercase;
+	color: rgba(31,143,14,1.00);
+	-webkit-transition: color .3s;
+	transition: color .3s;
+}
+.site nav ul li a:hover {
+	outline: none;
+	border-bottom: 1px solid red;
+}
+.hero-content {
+	font-family: 'acumin-pro-extra-condensed', sans-serif;
+	color:black;
+	z-index: 20000;
+	/*padding-bottom: 8em;*/
+	text-align: center;
+}
+.intro-header {
+	text-transform: uppercase;
+	font-size: 4em;
+	letter-spacing: 0.25em;
+	text-align: center;
+	padding-bottom: 2em;
+	font-family: acme;
 }
