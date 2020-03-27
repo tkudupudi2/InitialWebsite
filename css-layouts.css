@@ -6,6 +6,7 @@ html * {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	scroll-behavior: smooth;
 }
 body {
 	font-family: 'arial', sans-serif;
@@ -42,19 +43,26 @@ h3 {
 	background-color: grey;
 }
 .intro {
-	padding: 15em 6em;
+	/*padding: 15em 6em;*/
 	/*background-image: linear-gradient(rgb(160, 55, 220) 0%, rgb(83, 200, 234) 100%);*/
 	/*background-color: burlywood;*/
-	background-image: url("Wood texture.jpg");
+	/*background-image: url("Wood texture.jpg");*/
+	padding-bottom: 6em;
+	background-color: grey;
 }
 .intro p {
-	font-family: Arial, Helvetica, sans-serif;
-	color: #343144;
+	font-family: 'Raleway', sans-serif;
+	color: black;
 	text-align: center;
 	text-transform: none;
 	font-size: 1.5em;
 	line-height: 1.5em;
 	letter-spacing: 0.05em;
+	position: relative;
+	top: 00px;
+	width: 1000px;
+	right: -190px;
+	font-weight: 100;
 }
 
 .site-nav {
@@ -84,7 +92,7 @@ h3 {
 	text-decoration: none;
 	letter-spacing: .15em;
 	text-transform: uppercase;
-	color: white;
+	color: black;
 	-webkit-transition: color .3s;
 	transition: color .3s;
 }
@@ -105,7 +113,12 @@ h3 {
 	letter-spacing: 0.05em;
 	text-align: center;
 	padding-bottom: 2em;
-	font-family: acme;
+	position: relative;
+	top: 50px;
+	font-family: 'Raleway', sans-serif;
+	text-shadow: 4px 4px 4px grey;
+	color: black;
+	font-weight: normal;
 }
 .artworks {
 	position: relative;
@@ -129,5 +142,242 @@ h3 {
 	position: relative;
 	top: -220px;
 	left: -125px;
-	
+}
+.education-header {
+	text-transform: uppercase;
+	font-size: 4em;
+	letter-spacing: 0.05em;
+	text-align: center;
+	padding-bottom: 2em;
+	position: relative;
+	top: 70px;
+	font-family: 'Raleway', sans-serif;
+	text-shadow: 4px 4px 4px grey;
+	color: black;
+	font-weight: normal;
+}
+.education {
+	padding-bottom: 0;
+	background-color: grey;
+}
+.intro-logo {
+	position: relative;
+	top: 50px;
+	right: -400px;
+}
+
+.college {
+	position: relative;
+	top: 50px;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	width: 300px;
+	right: -50px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+}
+.college-years {
+	position: relative;
+	top: -50px;
+	font-size: 1.5em;
+	right: -500px;
+	font-style: italic;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+}
+.college-courses {
+	position: relative;
+	width: 350px;
+	font-size: 1.5em;
+	top: -83px;
+	right: -950px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+}
+.hs1 {
+	position: relative;
+	width: 300px;
+	font-size: 1.5em;
+	right: -50px;
+	text-transform: uppercase;
+	top: -37px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+}
+.hs1-years {
+	position: relative;
+	top: -120px;
+	font-size: 1.5em;
+	right: -500px;
+	font-style: italic;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+}
+.hs1-courses {
+	position: relative;
+	width: 350px;
+	font-size: 1.5em;
+	top: -149px;
+	right: -950px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+}
+
+.projects {
+	padding-bottom: 30em;
+	background-color: grey;
+}
+.projects-header {
+	text-transform: uppercase;
+	font-size: 4em;
+	letter-spacing: 0.05em;
+	text-align: center;
+	padding-bottom: 2em;
+	position: relative;
+	top: 70px;
+	font-family: 'Raleway', sans-serif;
+	text-shadow: 4px 4px 4px grey;
+	color: black;
+	font-weight: normal;
+}
+.projects-subheader {
+	font-size: 1.5em;
+	font-weight: normal;
+	position: relative;
+	top: -50px;
+	font-family: 'Raleway', sans-serif;
+}
+.projects-hyperloop {
+	text-align: left;
+	position: relative;
+	right: -100px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	font-size: 1.5em;
+	text-transform: uppercase;
+}
+.hyperloop-years {
+	position: relative;
+	top: -96px;
+	right: -100px;
+	font-size: 1.25em;
+	font-weight: 100;
+	font-family: 'Raleway', sans-serif;
+}
+.hyperloop-desc {
+	position: relative;
+	right: -59px;
+	top: -40px;
+	font-size: 1.15em;
+	font-weight: 100;
+	font-family: 'Raleway', sans-serif;
+	width: 1270px;
+}
+.projects-calendar {
+	text-align: left;
+	position: relative;
+	right: -100px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	top: 113px;
+}
+.calendar-years {
+	position: relative;
+	top: 12px;
+	right: -100px;
+	font-size: 1.25em;
+	font-weight: 100;
+	font-family: 'Raleway', sans-serif;
+}
+.calendar-desc {
+	position: relative;
+	right: -59px;
+	top: 14px;
+	font-size: 1.15em;
+	font-weight: 100;
+	font-family: 'Raleway', sans-serif;
+	width: 1270px;
+}
+.projects-sae {
+	text-align: left;
+	position: relative;
+	right: -100px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	top: 400px;
+}
+.sae-years {
+	position: relative;
+	top: 115px;
+	right: -100px;
+	font-size: 1.25em;
+	font-weight: 100;
+	font-family: 'Raleway', sans-serif;
+}
+.sae-desc {
+	position: relative;
+	right: -59px;
+	top: 65px;
+	font-size: 1.15em;
+	font-weight: 100;
+	font-family: 'Raleway', sans-serif;
+	width: 1270px;
+}
+.projects-website {
+	text-align: left;
+	position: relative;
+	right: -100px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	top: 565px;
+}
+.website-years {
+	position: relative;
+	top: 75px;
+	right: -100px;
+	font-size: 1.25em;
+	font-weight: 100;
+	font-family: 'Raleway', sans-serif;
+}
+.website-desc {
+	position: relative;
+	right: -59px;
+	top: 45px;
+	font-size: 1.15em;
+	font-weight: 100;
+	font-family: 'Raleway', sans-serif;
+	width: 1270px;
+}
+.projects-sce {
+	text-align: left;
+	position: relative;
+	right: -100px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	top: 818px;
+}
+.sce-years {
+	position: relative;
+	top: 445px;
+	right: -100px;
+	font-size: 1.25em;
+	font-weight: 100;
+	font-family: 'Raleway', sans-serif;
+}
+.sce-desc {
+	position: relative;
+	right: -59px;
+	top: 232px;
+	font-size: 1.15em;
+	font-weight: 100;
+	font-family: 'Raleway', sans-serif;
+	width: 1270px;
 }
